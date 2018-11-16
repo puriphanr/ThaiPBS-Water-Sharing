@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Pie-Loader Plugin Examples</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="jquery-pie-loader.css" rel="stylesheet" type="text/css">
+<style>
+body { background-color:#fafafa;}
+.svg-pie { float:left; margin:10px;}
+.container { margin:150px auto; max-width:680px;}
+#demo-2 {
+  box-shadow: none;
+  background: #1ABC9C;
+}
+
+#demo-2 circle:nth-child(1) { fill: #1ABC9C; }
+
+#demo-2 circle:nth-child(2) {
+  fill: #1ABC9C;
+  stroke: #3498DB;
+}
+
+#demo-2 .percentage { color: white; }
+
+#demo-3 {
+  box-shadow: none;
+  background: #C0392B;
+}
+#demo-3 circle:nth-child(1) {
+  fill: #C0392B;
+}
+#demo-3 circle:nth-child(2) {
+  fill: #C0392B;
+  stroke: #D35400;
+}
+#demo-3 .percentage {
+  color: white;
+}
+#demo-4 {
+  box-shadow: none;
+  background: #F39C12;
+}
+#demo-4 circle:nth-child(1) {
+  fill: #F39C12;
+}
+#demo-4 circle:nth-child(2) {
+  fill: #F39C12;
+  stroke: #E74C3C;
+}
+#demo-4 .percentage {
+  color: white;
+}
+
+#demo-5 {
+  box-shadow: none;
+  background: #BDC3C7;
+}
+#demo-5 circle:nth-child(1) {
+  fill: #BDC3C7;
+}
+#demo-5 circle:nth-child(2) {
+  fill: #BDC3C7;
+  stroke: #BDC3C7;
+}
+#demo-5 .percentage {
+  color: white;
+}
+
+#demo-6 {
+  box-shadow: none;
+  background: #2980B9;
+}
+#demo-6 circle:nth-child(1) {
+  fill: #2980B9;
+}
+#demo-6 circle:nth-child(2) {
+  fill: #2980B9;
+  stroke: #8E44AD;
+}
+#demo-6 .percentage {
+  color: white;
+}
+
+
+</style>
+</head>
+
+<body><div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/loading/Pie-style-Loading-Indicator-Plugin-With-jQuery-SVG-Pie-Loader.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container">
+<h1>jQuery Pie-Loader Plugin Examples</h1>
+<div id="demo-1" class="svg-pie"></div>
+<div id="demo-2" class="svg-pie"></div>
+<div id="demo-3" class="svg-pie"></div>
+<div id="demo-4" class="svg-pie"></div>
+<div id="demo-5" class="svg-pie"></div>
+<div id="demo-6" class="svg-pie"></div>
+</div>
+<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script> 
+<script src="jquery-pie-loader.js"></script> 
+<script>
+$(document).ready(function () {
+    $('#demo-1').svgPie({ percentage: 30 });
+	$('#demo-2').svgPie({ percentage: 70 });
+	$('#demo-3').svgPie({ percentage: 50 });
+	$('#demo-4').svgPie({ percentage: 80 });
+	$('#demo-5').svgPie({ percentage: 20 });
+	$('#demo-6').svgPie({ percentage: 40 });
+});
+</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

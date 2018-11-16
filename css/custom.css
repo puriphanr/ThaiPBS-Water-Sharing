@@ -1,0 +1,29 @@
+hr{border-color:#333;}
+.graph-label{position:relative;top:8px;left:-70px;background:url("../images/BT.png") no-repeat 0 0 transparent;width:161px;height:62px;border:none;padding:0;margin:0;box-shadow:none;}
+.container.effect7{max-width:1170px;width:100%;}
+.graph-label .point{position:absolute;left:50px;top:20px;}
+.graph-label .title, .graph-label .point{font-size:14px;}
+.graph-label .title{display:none;}
+.graph-label .img{padding:5px;position:absolute;right:8px;top:12px;}
+.graph-label .img img{width:25px;height:auto;}
+table{width:100%;}
+#main-nav .navbar-brand{display:none;}
+g.highcharts-series > rect{width:55px;}
+.slider.slider-horizontal .slider-tick-label-container .slider-tick-label{background:#333;color:#fff;padding:5px 0;}
+@media (max-width:991px){
+.entry-content table{width:100%;}
+.entry-content p{width:99%;}
+.news-content-list .news-block.news-featured p{display:inline;}
+.content-social-sharing .social-sharing{display:none;}
+.news-content-list .news-block.news-featured .item-content{width:37%;}
+}
+@media(max-width:767px){
+.graph-label{left:-30px}
+.news-content-list .news-block.news-featured .item-content{width:100%;}
+.slider.slider-horizontal .slider-tick-label-container div.slider-tick-label{display:none;}
+.slider.slider-horizontal .slider-tick-label-container div.slider-tick-label:first-child{display:block;}
+#main-nav ul.navbar-nav li{width:48%;border:none;}
+#main-nav ul.navbar-nav li a{color:#fff;border:none;background:none transparent;}
+#main-nav ul.navbar-nav li a:hover{color:#000;}
+#content{padding-top:10px;}
+}
